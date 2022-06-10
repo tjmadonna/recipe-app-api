@@ -60,7 +60,7 @@ class PublicRecipeAPITests(TestCase):
 
 
 class PrivateRecipeAPITests(TestCase):
-    """Test authenticated API"""
+    """Test authenticated API requests."""
 
     def setUp(self):
         self.client = APIClient()
